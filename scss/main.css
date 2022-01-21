@@ -586,11 +586,6 @@ i {
   left: 67%;
 }
 
-.cards:hover {
-  -webkit-transform: translate(-0.5rem, -1rem);
-          transform: translate(-0.5rem, -1rem);
-}
-
 .section-heading {
   width: 40%;
   height: 200px;

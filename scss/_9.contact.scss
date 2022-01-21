@@ -55,8 +55,9 @@
         width: 100%;
         height: 50px;
         border: none;
-        border-bottom: 2px solid gold;
+        border-bottom: 2px solid var(--color-gold-white);
         outline: none;
+        background-color: transparent;
     }
 
     &-email {

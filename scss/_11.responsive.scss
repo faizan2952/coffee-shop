@@ -289,39 +289,11 @@
 
 @include responsive($iphone-5) {
 
-.section-featuress{
-    height: 300vh;
-}
+
 
 .featureboxs {
-    width: 70%;
-    height: 40vh;
-    padding: 4rem 5vw;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
     h2{
         font-size: 1.8rem !important;
-    }
-
-    &:nth-child(2) {
-        top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    &:nth-child(3) {
-        top: 56%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    &:nth-child(4) {
-        
-        top: 78%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
 }
 

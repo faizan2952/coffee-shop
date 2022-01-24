@@ -161,10 +161,6 @@
         width: 60%;
         top: 70%;
     }
-
-
-
-
 }
 
 @include responsive($ipad) {
@@ -276,15 +272,43 @@
             margin-bottom: 8rem;
         }
     }
-    .section-contact{
+
+    .section-contact {
         height: 180vh;
     }
-    .contact-form{
+
+    .contact-form {
         width: 80%;
-        a{
+
+        a {
             top: 90%;
             left: 50%;
         }
-    
+    }
+}
+
+
+@include responsive($iphone-5) {
+
+    .contact-info {
+        width: 90%;
+
+        &-icon-wrap {
+            text-align: center;
+
+            &-heading {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .cards {
+        width: 300px;
+        height: 500px;
+    }
+
+    .section-heading {
+        width: 90%;
+
     }
 }

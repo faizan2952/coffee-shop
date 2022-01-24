@@ -302,10 +302,25 @@
         }
     }
 
+    .section-cards {
+        height: 400vh;
+    }
+
     .cards {
         width: 300px;
         height: 500px;
+        top: 30%;
+
+        &:nth-child(2) {
+            top: 57%;
+        }
+
+        &:nth-child(3) {
+            top: 83%;
+            left: 50%;
+        }
     }
+
 
     .section-heading {
         width: 90%;

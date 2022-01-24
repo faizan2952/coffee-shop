@@ -786,7 +786,7 @@ i {
 .featureboxs {
   position: absolute;
   width: 50%;
-  padding: 2rem 7vw;
+  padding: 3.4rem 7vw;
   background-color: var(--color-white-gold);
   height: 50vh;
   text-align: center;
@@ -1177,6 +1177,9 @@ i {
   }
   .section-heading {
     width: 90%;
+  }
+  .credit h3 {
+    font-size: 1.4rem !important;
   }
 }
 
